@@ -1,5 +1,5 @@
 # What is this repository?
-This repository contains the ns-3 source code used for generating test data.
+This repository is the submission for NordSec 2025 and contains the ns-3 source code used to generate test data.
 
 To get started, install ns-3 by following the official installation guide:
 https://www.nsnam.org/docs/release/3.44/installation/html/index.html.
