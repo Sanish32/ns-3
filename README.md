@@ -8,6 +8,6 @@ Now, once you have ``localization_3log1.cc`` in scratch folder, go to the locati
 1) Open the terminal.
 2) Locate the ns-3 project. Command line ``cd`` will be useful.
 3) If you are able to go in ``ns-allinone-3.44``, now type ``cd ns-3.44``.
-4) Now, run the C++ file by typing `1./ns3 run scratch/localization_3log1.cc``. Once you run the command, you will see new file in the ``ns-3.44`` folder.
+4) Now, run the C++ file by typing ``./ns3 run scratch/localization_3log1.cc``. Once you run the command, you will see new file in the ``ns-3.44`` folder.
 
 ## Note: This readme file does not explain what each step means and what is its point. This readme only explains the necessary steps to run the ns-3 C++ code to generate test data. 
