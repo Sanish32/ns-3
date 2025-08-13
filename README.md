@@ -2,10 +2,10 @@
 This repository contains the ns-3 source code used for generating test data.
 
 To get started, install ns-3 by following the official installation guide:
-https://www.nsnam.org/docs/release/3.44/installation/html/index.html
+https://www.nsnam.org/docs/release/3.44/installation/html/index.html.
 
 For a quicker setup, you can also refer to the Quick Start guide:
-https://www.nsnam.org/docs/release/3.44/installation/html/quick-start.html
+https://www.nsnam.org/docs/release/3.44/installation/html/quick-start.html.
 
 Once ns-3 is installed and built, locate the scratch directory inside ``ns-3.44`` (which itself is inside ``ns-allinone-3.44``).
 Copy or move the ``localization_3log1.cc`` file into this scratch directory. Currently there is new version of ns-3, however please download the ns-3.44 since this version is what we used to generate test data.
