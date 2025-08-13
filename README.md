@@ -6,7 +6,7 @@ There is a scratch folder inside the ns-3.44 folder (this folder is inside ns-al
 # Running a ns-3 code
 Now, once you have ``localization_3log1.cc`` in scratch folder, go to the location of scratch folder in the terminal. To do this, follow the following steps:
 1) Open the terminal.
-2) Locate the ns-3 project. Command line ``cd`` will be useful.
+2) Locate the ns-3 project. Command ``cd`` will be useful.
 3) If you are able to go in ``ns-allinone-3.44``, now type ``cd ns-3.44``.
 4) Now, run the C++ file by typing ``./ns3 run scratch/localization_3log1.cc``. Once you run the command, you will see new file in the ``ns-3.44`` folder.
 
