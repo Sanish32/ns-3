@@ -17,7 +17,7 @@ Once ``localization_3log1.cc`` is placed in the scratch folder, follow these ste
 1) Open the terminal.
 2) Navigate to the ``ns-allinone-3.44`` (ns-3 project directory) using the cd command.
 3) If you are in the ``ns-allinone-3.44`` directory, enter: ``cd ns-3.44``.
-4) Run the C++ file by executing: ``./ns3 run scratch/localization_3log1.cc``.
+4) If you are in the ``ns-3.44``, Run the C++ file by executing: ``./ns3 run scratch/localization_3log1.cc``.
 
 After running this command, a new output file (``localization no-building environment=Urban city-size=Large frequency=1.4e+09 grid=500X500 n(UE)=200 n(eNB+FBS)=5 lbs=46 fbs=48 seed=1 run=1.txt``) will appear in the ``ns-3.44`` directory.
 
