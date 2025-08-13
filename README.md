@@ -12,13 +12,13 @@ Copy or move the ``localization_3log1.cc`` file into this scratch directory. Cur
 
 This C++ file is responsible for generating synthetic test data. You can control the randomness of the generated datasets by adjusting the ``seed`` and run ``variables`` inside the main function. Changing these values alters the initial positions of UEs, BSs, and FBSs, allowing you to produce multiple distinct test datasets.
 
-
 # Running a ns-3 code
-Now, once you have ``localization_3log1.cc`` in scratch folder, go to the location of scratch folder in the terminal. To do this, follow the following steps:
+Once ``localization_3log1.cc`` is placed in the scratch folder, follow these steps to run it:
 1) Open the terminal.
-2) Locate the ns-3 project. Command ``cd`` will be useful.
-3) If you are able to go in ``ns-allinone-3.44``, now type ``cd ns-3.44``.
-4) Now, run the C++ file (``localization_3log1.cc``) by typing ``./ns3 run scratch/localization_3log1.cc``. Once you run the command, you will see new file in the ``ns-3.44`` folder.
+2) Navigate to the ``ns-allinone-3.44`` (ns-3 project directory) using the cd command.
+3) If you are in the ``ns-allinone-3.44`` directory, enter: ``cd ns-3.44``.
+4) Run the C++ file by executing: ``./ns3 run scratch/localization_3log1.cc``.
 
-## Note: This readme file does not explain what each step means and what is its point. It only provides the necessary steps to run the ns-3 C++ code to generate test data for simplicity
-. 
+After running this command, a new output file will appear in the ns-3.44 directory.
+
+## Note: This README section does not explain the purpose or function of each step. It is intended solely as a quick reference for running the ns-3 C++ code to generate test data.. 
