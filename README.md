@@ -1,7 +1,17 @@
 # What is this repository?
-This repository contains the ns-3 codes for generating test data. The installation guide can be found in https://www.nsnam.org/docs/release/3.44/installation/html/index.html. Please follow the necessary steps to download, build and test ns-3 simulator (https://www.nsnam.org/docs/release/3.44/installation/html/quick-start.html). 
+This repository contains the ns-3 source code used for generating test data.
 
-There is a scratch folder inside the ns-3.44 folder (this folder is inside ns-allinone-3.44) and now, copy/move the ``localization_3log1.cc``. This C++ file is used for generating our synthetic test data. Adjusting ``seed`` and ``run`` variables (inside main function) allows to introduce randomness in our multiple test data, since adjusting those variables change the initial locations of UEs, BSs and FBS.
+To get started, install ns-3 by following the official installation guide:
+https://www.nsnam.org/docs/release/3.44/installation/html/index.html
+
+For a quicker setup, you can also refer to the Quick Start guide:
+https://www.nsnam.org/docs/release/3.44/installation/html/quick-start.html
+
+Once ns-3 is installed and built, locate the scratch directory inside ``ns-3.44`` (which itself is inside ``ns-allinone-3.44``).
+Copy or move the ``localization_3log1.cc`` file into this scratch directory. Currently there is new version of ns-3, however please download the ns-3.44 since this version is what we used to generate test data.
+
+This C++ file is responsible for generating synthetic test data. You can control the randomness of the generated datasets by adjusting the ``seed`` and run ``variables`` inside the main function. Changing these values alters the initial positions of UEs, BSs, and FBSs, allowing you to produce multiple distinct test datasets.
+
 
 # Running a ns-3 code
 Now, once you have ``localization_3log1.cc`` in scratch folder, go to the location of scratch folder in the terminal. To do this, follow the following steps:
